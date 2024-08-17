@@ -218,7 +218,69 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
+    header {
+        padding: 0;
+    }
+    .header__icons-mobile {
+        gap: 35px;
+    }
+    .new-products__slider {
+        flex-direction: column;
+    }
+    footer {
+        display: none;
+    }
+    .hero__title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.5px;
+        letter-spacing: 0px;
+        margin-bottom: 8px;
+    }
+    .hero__text {
+        font-size: 12px;
+        margin-bottom: 28px;
+        letter-spacing: 0;
+    }
+    .btn-big {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px 38px;
+    }
+    .hero {
+        padding-top: 58px;
+        padding-bottom: 58px;
+        margin-bottom: 77px;
+    }
+    .popular__head {
+        margin-bottom: 20px;
+    }
+    .popular__title {
+        font-size: 22px;
+        line-height: 26.25px;
+        font-weight: 700;
+    }
+    .popular__buttons {
+        gap: 0px;
+        & button {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+        }
+    }
+    .full-wrapper {
+        width: 100%;
+    }
+    .popular__cards {
+        gap: 0;
+        overflow-x: scroll;
+    }
+    .popular__card {
+        flex: auto;
+        width: 100%;
+        flex-shrink: 0;
+    }
 }
 
 @media (max-width: 320px) {
