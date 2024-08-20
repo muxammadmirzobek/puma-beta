@@ -228,9 +228,7 @@
     .new-products__slider {
         flex-direction: column;
     }
-    footer {
-        display: none;
-    }
+
     .hero__title {
         font-size: 18px;
         font-weight: 700;
@@ -280,6 +278,147 @@
         flex: auto;
         width: 100%;
         flex-shrink: 0;
+    }
+
+    /* new product section */
+    .new-rod .slider__title {
+        font-size: 18px;
+        line-height: 21.5px;
+        margin-bottom: 17px;
+    }
+    .slider__card-button {
+        bottom: 18px;
+        right: 26px;
+        width: 56px;
+        height: 56px;
+        & .icon {
+            font-size: 22px;
+        }
+    }
+    .slider__card:nth-child(4) {
+        display: none;
+    }
+    .slider-arrows {
+        display: none;
+    }
+    .btn-view {
+        display: block;
+        font-size: 18px;
+        line-height: 21.5px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        text-transform: uppercase;
+        width: 100%;
+        margin-top: 15px;
+    }
+    /* single section */
+    .single-product {
+        padding-top: 56px;
+        padding-bottom: 56px;
+        margin-bottom: 70px;
+    }
+    .single__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -1px;
+        margin-bottom: 8px;
+    }
+    .single__text {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: -1px;
+        margin-bottom: 25px;
+    }
+    /* varayty section */
+    .variety__wrapper {
+        flex-direction: column;
+    }
+    .variety__title {
+        display: block;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .variety__card:last-child {
+        display: none;
+    }
+    .variety__card {
+        & img {
+            margin-bottom: 15px;
+        }
+    }
+    .variety__type {
+        font-size: 18px;
+        line-height: 21.5px;
+        font-weight: 500;
+    }
+    /* kids section */
+    .kids {
+        padding-top: 47px;
+        padding-bottom: 61px;
+    }
+    .kids__title {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23.87px;
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+    }
+    .kids__text {
+        font-size: 14px;
+        line-height: 16.71px;
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+    }
+
+    /* footer */
+    .desktop-footer {
+        display: none;
+    }
+    .mobile-footer {
+        display: block;
+    }
+    .footer-support {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .footer-about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+    }
+    .footer__address {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 50px;
+    }
+    .footer-bottom {
+        margin-top: 30px;
+    }
+    .social-icons {
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    .footer-copyright {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+    footer {
+        display: none;
+    }
+    .mobile-footer {
+        display: block;
+    }
+    .footer__copyright {
+        padding-bottom: 20px;
     }
 }
 

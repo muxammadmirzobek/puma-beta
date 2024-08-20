@@ -37,6 +37,9 @@ img {
     cursor: pointer;
     transition: 0.1s;
 }
+.btn-view {
+    display: none;
+}
 .btn:hover {
     filter: brightness(90%);
 }
@@ -370,6 +373,9 @@ header {
     font-size: 24px;
     line-height: 28.64px;
 }
+.variety__title {
+    display: none;
+}
 
 /* Kids section */
 
@@ -508,4 +514,7 @@ footer {
 }
 .payment-card {
     width: 50px;
+}
+.mobile-footer{
+    display: none;
 }
